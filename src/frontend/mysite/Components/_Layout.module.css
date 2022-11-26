@@ -1,0 +1,10 @@
+.bg_Layout {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS9Hwot1dnhPwVRKMutchj1Lyg-4g_KbVfbg&usqp=CAU);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+._Layout{
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+}
