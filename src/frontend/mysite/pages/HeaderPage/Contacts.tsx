@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { FC } from "react"
-
+import _LayoutBlank from "../../Components/_Layouts/_LayoutBlank";
+import {PageWithLayoutType} from "../../Components/_Layouts/_LayoutType/LayoutType";
 const Contacts:FC = () =>
 {
     return (
@@ -9,9 +10,7 @@ const Contacts:FC = () =>
             <ol>
                 <li>
                     <Link href="https:github.com/LimLife">
-                        <a>
                             Git
-                        </a>
                     </Link>
                 </li>
                 <li>Email:LimFobos</li>
@@ -20,4 +19,5 @@ const Contacts:FC = () =>
         </div>
     )
 }
+(Contacts as PageWithLayoutType).layout = _LayoutBlank;
 export default Contacts;

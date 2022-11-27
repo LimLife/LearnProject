@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 
@@ -44,7 +45,11 @@ export const NavBar = () =>
                             </li>
                         </ol>
                         <div className="row">
-                            <div className="col-5"></div>
+                            <div className="col-5">
+                                <Link className={`text-black ${style.link_Decoration}`} href={"/Registration/Registration"}>
+                                    <span>Registration</span>
+                                </Link>
+                            </div>
                             <div className="col-7">
                                 <Button className={`border-0 text-black ${style.colorwhite} ${style.bgcolor}`} type="submit">Enter</Button>
                             </div>
