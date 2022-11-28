@@ -10,7 +10,7 @@ export const NavBar = () =>
     useEffect(() =>
     {
         SetSearchValue("Search Area")
-    }, [])
+    }, [searchValue])
     return (
         <nav id="navbar" className={`navbar g-4 font-size-20 pb-5 navbar sticky-top container-xxl ${style.bg_navbar}`}>
             <div className="container-xxl row">

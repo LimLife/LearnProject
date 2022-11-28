@@ -9,7 +9,6 @@ export const Header:React.FC = () =>
                 <span className="col-1"><s>Fun Project=)</s></span>
             </div>
             <div className="col-2">
-                { /* Just returns to Home Page */}
                 <Link href="/" className="col-3">                  
                         <Image src={img} alt="Logo" width={50} height={40} />
                 </Link>

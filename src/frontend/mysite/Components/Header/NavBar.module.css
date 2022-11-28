@@ -1,19 +1,21 @@
-.inputnone::target-text{
+.inputnone::target-text {
     border-color: inherit;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
-.bgcolor:focus{
-    background-color:white;
-}
-
-.colorwhite{
+.bgcolor:focus {
     background-color: white;
 }
-.bg_navbar{
-    background-color:rgba(0,0,0,0.05);
+
+.colorwhite {
+    background-color: white;
 }
-.link_Decoration{
+
+.bg_navbar {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.link_Decoration {
     text-decoration: none;
 }
